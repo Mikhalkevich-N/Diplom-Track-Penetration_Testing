@@ -96,7 +96,7 @@ Cеть 92.51.39.0/24
 Результат:
 Уязвимостью критического уровня является - SQL Injection, высокого уровня -Cross Site Scripting и Local File Inclusion. 
 
-Файл с отчетом сканирования Acunetix - 
+Файл с отчетом сканирования Acunetix - [отчет](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/20251009_Developer_http_92_51_39_106_8050_.pdf)
 
 **zaproxy**
 ![png](image-24.png)
