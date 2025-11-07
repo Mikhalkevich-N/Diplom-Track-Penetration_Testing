@@ -14,11 +14,12 @@
 **WHOIS** - этот пакет предоставляет клиент командной строки для протокола WHOIS, который запрашивает у онлайн-серверов такую ​​информацию, как контактные данные доменов и назначенные IP-адреса. Он может автоматически выбирать подходящий WHOIS-сервер для большинства запросов.
 
 Результаты:
-Организация: "TIMEWEB"
-Владелец: Igor Gilmutdinov
-Адрес: Россия (RU), 196006, Saint-Petersburg, Zastavskaya str., 22/2 lit.A
-Электронная почта: abuse@timeweb.ru
-Телефоны: +78122481081, +74950331081
+
+* Организация: "TIMEWEB"
+* Владелец: Igor Gilmutdinov
+* Адрес: Россия (RU), 196006, Saint-Petersburg, Zastavskaya str., 22/2 lit.A
+* Электронная почта: abuse@timeweb.ru
+* Телефоны: +78122481081, +74950331081
 
 ![png](image.png)
 
@@ -95,29 +96,54 @@
 
 Результат:
 
-Открыт порт 22 - OpenSSH 8.2p1 Ubuntu 4ubuntu0.13 (Ubuntu Linux; protocol 2.0).
-Cеть 92.51.39.0/24
-Эл.почта: abuse@timeweb.ru
+* Открыт порт 22 - OpenSSH 8.2p1 Ubuntu 4ubuntu0.13 (Ubuntu Linux; protocol 2.0).
+* Cеть 92.51.39.0/24
+* Эл.почта: abuse@timeweb.ru
 
 **Acunetix**
 
 ![png](image-25.png)
 
 Результат:
-Уязвимостью критического уровня является - SQL Injection, высокого уровня -Cross Site Scripting и Local File Inclusion. 
+* Уязвимость критического уровня является - SQL Injection.
+* Уязвимость высокого уровня -Cross Site Scripting и Local File Inclusion. 
 
-Файл с отчетом сканирования Acunetix - 
+Файл с отчетом сканирования Acunetix - [отчет](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/20251009_Developer_http_92_51_39_106_8050_.pdf)
 
 **zaproxy**
 
 8050
 ![png](image-24.png)
 
+<<<<<<< HEAD
 
 7788
 
 ![png](image-16.png)
 
+=======
+Результат:
+
+* High Priority Alerts:
+ * Cross Site Scripting (DOM Based)
+ * Cross Site Scripting (Persistent)
+ * Cross Site Scripting (Reflected)
+
+*Medium Priority Alerts:
+ * Absence of Anti-CSRF Tokens
+ * Application Error Disclosure
+ * Content Security Policy (CSP) Header Not Set
+ * Directory Browsing
+ * Missing Anti-clickjacking Header
+
+* Low Priority Alerts:
+ * Cookie No HttpOnly Flag
+ * Cookie without SameSite Attribute
+ * Server Leaks Information via "X-Powered-By" HTTP Response Header Field(s)
+ * Server Leaks Version Information via "Server" HTTP Response Header Field
+ * Timestamp Disclosure - Unix
+ * X-Content-Type-Options Header Missing
+>>>>>>> 172bcb202b6cca22478e5f646bd469127baacfe8
 
 ### Этап 3. Testing
 
@@ -145,7 +171,7 @@ Cеть 92.51.39.0/24
 ![png](image-26.png)
 
 **Cross Site Scripting (Persistent)**
-Введем в форму отправки комментария код
+Введем в форму отправки комментария код:
 ```
 <script>alert('You are hacked!')</script>
 ```
