@@ -229,12 +229,6 @@ whoami; pwd; cat /etc/passwd
 ![png](image-48.png)
 
 
-
-Файл загружен. Теперь перейдем по адресу http://92.51.39.106:8050/upload/html/ и видим наш загруженный файл:
-
-![png](image-34.png)
-![png](image-35.png)
-
 #### Цель: http://92.51.39.106:7788
 
 **SQL Injections**
