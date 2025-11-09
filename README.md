@@ -121,7 +121,7 @@
 
 ![png](image-16.png)
 
-Файл с отчетом: [отчет 7788](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/report%20scan%208050.pdf)
+Файл с отчетом: [отчет 7788](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/port7788-ZAP-Report-.html)
 
 =======
 
