@@ -52,7 +52,7 @@
 
 ![png](image-6.png)
 
-**https://check-risk.ru/service/check-ports**
+**check-risk.ru**
 
 ![png](image-15.png)
 
@@ -66,7 +66,7 @@
 
 7788 (TCP) - Beemers использует HTTPServer: TornadoServer/5.1.1
 
-На  https://www.cvedetails.com найдены уязвимости по данным версиям серверов:
+На  https://www.cvedetails.com найдены уязвимости по данны версии сервера TornadoServer:
 
 ![png](image-46.png)
 
@@ -108,42 +108,23 @@
 * Уязвимость критического уровня является - SQL Injection.
 * Уязвимость высокого уровня -Cross Site Scripting и Local File Inclusion. 
 
-Файл с отчетом сканирования Acunetix - [отчет](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/20251009_Developer_http_92_51_39_106_8050_.pdf)
+Файл с отчетом сканирования Acunetix порта 8050 - [отчет](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/20251009_Developer_http_92_51_39_106_8050_.pdf)
 
 **zaproxy**
 
 8050
 ![png](image-24.png)
 
-<<<<<<< HEAD
+Файл с отчетом: [отчет 8050](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/2025-11-06-ZAP-Report-.html)
 
 7788
 
 ![png](image-16.png)
 
+Файл с отчетом: [отчет 7788](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/report%20scan%208050.pdf)
+
 =======
-Результат:
 
-* High Priority Alerts:
- * Cross Site Scripting (DOM Based)
- * Cross Site Scripting (Persistent)
- * Cross Site Scripting (Reflected)
-
-*Medium Priority Alerts:
- * Absence of Anti-CSRF Tokens
- * Application Error Disclosure
- * Content Security Policy (CSP) Header Not Set
- * Directory Browsing
- * Missing Anti-clickjacking Header
-
-* Low Priority Alerts:
- * Cookie No HttpOnly Flag
- * Cookie without SameSite Attribute
- * Server Leaks Information via "X-Powered-By" HTTP Response Header Field(s)
- * Server Leaks Version Information via "Server" HTTP Response Header Field
- * Timestamp Disclosure - Unix
- * X-Content-Type-Options Header Missing
->>>>>>> 172bcb202b6cca22478e5f646bd469127baacfe8
 
 ### Этап 3. Testing
 
