@@ -56,6 +56,8 @@
 
 ![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image-15.png)
 
+Результат: открыты 22, 8050, 7788 порты.
+
 **whatweb**
 
 ![png](https://github.com/Mikhalkevich-N/Diplom-Track-Penetration_Testing/blob/main/img/image-44.png)
